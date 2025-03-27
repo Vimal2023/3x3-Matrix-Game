@@ -5,7 +5,6 @@ A simple yet engaging 3x3 grid-based game built with React.js. Test your clickin
 ## Live Demo
 
 Check out the live demo here: [Matrix Game Live Demo](https://3x3-matrix-gamevimal.vercel.app/)  
-*(Replace the URL with your actual deployed link after hosting the project.)*
 
 ## Features
 
@@ -18,7 +17,7 @@ Check out the live demo here: [Matrix Game Live Demo](https://3x3-matrix-gamevim
 ## Tech Stack
 
 - **React.js**: For building the interactive UI.
-- **CSS**: Custom styles with Google Fonts ("Tektur") and media queries for responsiveness.
+- **CSS**: Custom styles with Google Fonts and media queries for responsiveness.
 - **JavaScript**: Handles game logic and state management.
 
 ## How to Play
