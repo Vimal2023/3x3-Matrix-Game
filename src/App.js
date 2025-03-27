@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Matrix from './components/Matrix';
+import './styles/Matrix.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='heading'>
+      <h1 className=''>3x3 Matrix Game</h1>
+      <h2 className='second'>develop by <a href='https://portfolio-c-vimal-anand.vercel.app/' target="_blank" rel="noreferrer"><span className='me' >@Vimal-Anand</span></a></h2>
+      </div>
+      <Matrix />
     </div>
   );
 }
